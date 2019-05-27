@@ -145,7 +145,6 @@ var rootCmd = cobra.Command{
 			cmd.Usage()
 			return
 		}
-
 		pinger.SetTarget(&target)
 		pingerDone := pinger.Start()
 		select {
